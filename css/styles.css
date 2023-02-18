@@ -1,5 +1,7 @@
 body {
     background-color: #FFDCDC;
+    font-family: "Mali", sans-serif;
+    font-weight: 500;
 }
 
 img {
@@ -42,4 +44,15 @@ img {
     background-color: #FF9292;
     color: #FFF;
     border: #FF9292;
+}
+
+.slogan {
+    position: relative;
+    color: #FFF;
+    font-size: xx-large;
+    bottom: 25px;
+}
+
+.drop-shadow {
+    filter: drop-shadow(2px 4px 8px hsla(0, 68%, 65%, 0.38))
 }
