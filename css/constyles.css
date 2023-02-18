@@ -78,8 +78,8 @@
     }
   }
   
-  h2 {
-    font-family: 'Roboto', sans-serif;
+  .contact-box h2 {
+    /* font-family: 'Roboto', sans-serif; */
     color: #fff;
     font-size: clamp(30px, 6vw, 60px);
     letter-spacing: 2px;
@@ -99,7 +99,7 @@
     cursor: pointer;
   }
   
-  img {
+  .contact-box img {
     width: 65px;
     height: 65px;
     
@@ -107,11 +107,11 @@
     user-select: none;
   }
   
-  img:hover {
+  .contact-box img:hover {
     transform: scale(1.1, 1.1);
   }
   
-  img:active {
+  .contact-box img:active {
     transform: scale(1.1, 1.1);
     filter: 
       hue-rotate(220deg)
@@ -123,10 +123,10 @@
     position: relative;
   }
   
-  label, input, textarea {
+  /* label, input, textarea {
     font-family: 'Poppins', sans-serif;
   }
-  
+   */
   label {
     position: absolute;
     top: 10px;
@@ -182,6 +182,10 @@
     transform: scale(1.1, 1.1);
     filter: sepia(0.5);
   }
+
+  .form-item {
+    margin-top: 25px;
+  }
   
   @media only screen and (max-width: 800px) {
     h2 {
@@ -195,10 +199,11 @@
     }
     
     .links {
-      padding-top: 30px;
+      padding-top: 20px;
+      
     }
     
-    img {
+    .contact-box img {
       width: 38px;
       height: 38px;
     }
