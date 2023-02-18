@@ -4,11 +4,41 @@ body
 }
 .wrapper{
     display: grid;
-    margin: 100px 90px auto;
-    grid-gap: 100px;
+    margin: 100px 300px auto 300px;
+    grid-gap: 80px;
     grid-template-columns: repeat(3, 1fr);
     
   }
+  button{
+    position: relative;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px 10px;
+    font-weight: bold;
+    border: 2px solid #6b1b07f1;
+    background: transparent;
+    color:#ffffff ;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  button::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background: #6b1b07f1;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.4s;
+  }
+  
+button:hover::after{
+    width: 100%;
+}
 .image
   {
     width: 350px;
@@ -66,7 +96,7 @@ body
     z-index: 1;
     height: 220px;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
     color: #fff;
     opacity: 0;
     transform-style: preserve-3d;
