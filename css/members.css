@@ -78,7 +78,6 @@ body
   }
   .box .back-face p{
     margin-top: 10px;
-    text-align: justify;
   }
   .box:hover .back-face{
     opacity: 1;
