@@ -3,6 +3,7 @@ body
     text-align: center;
 }
 .wrapper{
+    justify-content: center;
     display: grid;
     margin: 100px 300px auto 300px;
     grid-gap: 80px;
@@ -60,6 +61,7 @@ button:hover::after{
     margin: 20px auto;
     position: relative;
     perspective: 1000px;
+    
   }
   .wrapper .box .front-face{
     background: #fff;
@@ -85,7 +87,7 @@ button:hover::after{
   }
   .box .front-face .icon i,
   .box .front-face span{
-    background: linear-gradient(-135deg, #fd4c4c, #FFB4B4);
+    background-color: #ff7979;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
