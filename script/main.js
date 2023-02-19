@@ -1,4 +1,4 @@
 //slide auto switch interval
 $('.carousel').carousel({
-    interval: 4000 //4 sec
+    interval: 3000 //3 sec
 })
