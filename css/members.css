@@ -10,7 +10,7 @@ body
     grid-template-columns: repeat(3, 1fr);
     
   }
-  button{
+  .resume{
     position: relative;
     width: 200px;
     padding: 10px 0;
@@ -25,7 +25,7 @@ body
     text-transform: uppercase;
     transition: 0.4s;
   }
-  button::after{
+  .resume::after{
     content: '';
     width: 0;
     height: 100%;
@@ -37,7 +37,7 @@ body
     transition: 0.4s;
   }
   
-button:hover::after{
+.resume:hover::after{
     width: 100%;
 }
 .image
